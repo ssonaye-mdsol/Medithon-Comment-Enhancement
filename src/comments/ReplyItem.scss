@@ -1,0 +1,47 @@
+
+.reply-item-container {
+  margin-top: 10px;
+
+  .reply-item-header-row {
+    display: flex;
+    justify-content: space-between;
+
+    .reply-item-header-meta {
+      display: flex;
+      align-items: center;
+
+      .reply-item-author {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+        max-width: 108px;
+        overflow-x: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .reply-item-timestamp {
+        color: #626b78;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .reply-item-body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 39px;
+    margin-right: 72px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+  }
+}

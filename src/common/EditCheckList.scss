@@ -1,0 +1,47 @@
+.editcheckHeader {
+    display: flex;
+    margin: 0px 100px;
+    color: #6d6969;
+}
+
+.editcheckRow{
+    display: flex;
+    background: #f3f3f3;
+    height: 60px;
+    margin: 25px 100px;
+    color: #4c4c4c;
+    border-radius: 8px;
+}
+
+.editcheckHeaderText {
+    flex-basis: 25%;
+    text-align: left;
+    font-size: 14px;
+    margin: 0px 15px;
+}
+
+.editcheckItem {
+    flex-basis: 25%;
+    text-align: left;
+    margin: 18px 15px;
+}
+
+.editcheckItemLast, .editcheckHeaderTextLast {
+    flex-basis: 10%;
+    padding: 10px 0px;
+}
+
+.studyDetails {
+    margin: 20px 114px;
+    display: flex;
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-bottom: 2px;
+}
+
+.studyLine{
+    width: 120px;
+    height: 2px;
+    background: rgb(0, 112, 192);
+    margin: 0px 115px 30px;
+}

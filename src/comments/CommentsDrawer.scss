@@ -1,0 +1,71 @@
+
+.comments-drawer-container {
+  .comments-button.onex-btn.btn-secondary,
+  .comments-button.onex-btn.btn-secondary:hover,
+  .comments-button.onex-btn.btn-secondary:focus {
+    margin-left: 12px;
+    background: transparent;
+    height: 100%;
+
+    .unresolved-comments-icon {
+      position: relative;
+      color: rgb(0, 112, 192);
+    }
+
+    .unresolved-comments-icon::before {
+      content: '';
+      position: absolute;
+      top: -1px;
+      height: 6px;
+      width: 6px;
+      right: -1px;
+      border-radius: 50%;
+      background: #f93c3c;
+    }
+  }
+
+  .block-ui-overlay {
+    height: 100vh;
+    position: fixed;
+  }
+
+  .block-ui-message-container {
+    width: 400px;
+    position: fixed;
+    left: calc(100% - 400px);
+  }
+}
+
+.onex-offcanvas {
+  text-align: left;
+
+  .offcanvas-header {
+    border-bottom: none;
+  }
+
+  .offcanvas-body {
+    .comments-action-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .comments-filter {
+        min-width: auto;
+        width: 116px;
+      }
+    }
+
+    .comments-add-region {
+      margin-top: 21px;
+
+      .add-drawer-btns {
+        margin-top: 5px;
+      }
+    }
+
+    .comments-zero-state {
+      margin-top: 50px;
+      border: none;
+    }
+  }
+}
